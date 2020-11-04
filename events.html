@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="temidayo Omotoye">
+    <meta name="description" content="Temix Empire also Specializes in event planning and management, decorations of halls and events centers for weddings, birthdays, anniversary, etc ">
+    <meta name="keywords" content="events, decoration, event planning, parties, anniversary, events">
+    <title>Temix Empire - Events and Decoration</title>
+    <link rel="icon" href="images/temix_empire_logo.png" type="image/jpg" size="32X32">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.css">
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css">
+    <script src="script.js"></script>
+</head>
+<body onload="displayHelp()">
+        <!-- Top header -->
+        <header id="mainHeader">
+            <div class="logo_title">
+                <a href="index.html">
+                    <img src="images/temix_empire_logo.png" alt="temix empire">
+                    <h1>
+                        <div class="title">Temix Empire</div>
+                        <div class="tagline">Cakes|Events|Makeup|Beddings</div>
+                    </h1>
+                </a>
+            </div>
+            <!-- navigation -->
+            <nav id="navigation">
+                <ul>
+                    <li><a href="about.html" title="who we are">About</a></li>
+                    <li><a href="javascript:void(0);" title="What we do">services<i class="fas fa-sort-down"></i></a>
+                        <ul>
+                            <li><a href="cakes.html" title="Baking and of cakes">Cakes</a></li>
+                            <li class="active"><a href="events.html" title="Event planning and decoration">Events</a></li>
+                            <li><a href="Beddings.html" title="Beddings for hotels and homes">Beddings</a></li>
+                            <li><a href="makeover.html" title="Professional make over">Make Over</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:void(0);" title="All our work">Gallery<i class="fas fa-sort-down"></i></a>
+                        <ul>
+                            <li><a href="cake_gallery.html" title="Baking and of cakes">Cake Photos</a></li>
+                            <li><a href="event_gallery.html" title="Event planning and decoration">Event Photos</a></li>
+                            <li><a href="Bedding_gallery.html" title="Beddings for hotels and homes">Beddings Photos</a></li>
+                            <li><a href="makeover_gallery.html" title="Professional make over">Make Over Photos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html" title="Trending topics">Blog</a></li>
+                    <li><a href="contact.html" title="Contact us">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-icon" onclick="displayMenu()"><a href="javascript:void(0);"><i class="fas fa-bars" style="color:#fff"></i></a></div>
+            
+        </header>
+        <!--banner slides-->
+        <section id="aboutBanner">
+            <div class="bannerImg">
+                <img src="images/events.jpg" alt="events">
+            </div>
+            <div class="sub-details">
+                <h2 style="text-decoration: none;">Event Planning and Decorations</h2>
+                <div class="buttons">
+                    <button><a href="contact.html">Request Quote</a></button>
+                    <button><a href="event_gallery.html" title="event photos">Gallery</a></button>
+                </div>
+            </div>
+            
+        </section>
+        <section id="ourExistence">
+            <div class="texts">
+                <p>We are specialists in event decoration. We recreate your environment to give it an inviting and relaxed appearance.<br><br>Our team of experts take your ideas and polish it to give you the best decoration.<br><br>
+                    See our gallery for events we have covered over the years and recently.<br>
+                <button><a href="contact.html">Request a Quote</a></button>
+                    <button><a href="event_gallery.html">view gallery</a></button>
+                </p>
+                <img src="images/events2.jpg" alt="Events planning">
+            </div>
+            
+        </section>
+    <footer>
+        <section class="mainFooter">
+            <section class="mainFooter1">
+                <div class="contactAddress">
+                    <h3>For more info and to book an appointment</h3>
+                    <div class="address">
+                        <i class="fas fa-home" style="color:rgba(170, 5, 170, 0.521); font-size: 2.5em;"></i>
+                        <div class="addtext">
+                            <h4>Head office:</h4>
+                            <p>360 Housing Complex Road  Ekpan, Effurun,<br> Delta state</p>
+                        </div>
+                    </div>
+                    <div class="address phone">
+                        <i class="fas fa-phone-volume" style="color:rgba(170, 5, 170, 0.521); font-size: 2.5em;"></i>
+                        <div class="addtext">
+                            <h4>Call us:</h4>
+                            <p>09023140300<br>08157985866</p>
+                        </div>
+                    </div>
+                    <div class="address email">
+                        <i class="fas fa-envelope-open-text" style="color:rgba(170, 5, 170, 0.521); font-size: 2.5em;"></i>
+                        <div class="addtext">
+                            <h4>Email:</h4>
+                            <p>info@temixempire.com <br>sales@temixempire.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="subscribe_category">
+                    <div class="subscribe">
+                        <h3>Please subscribe to our newsletter</h3>
+                        <form id="subscribe" method="post" action="subscribe.php">
+                            <input type="email" id="email" placeholder="enter your email">
+                            <input type="submit" id="submit" value="Subscribe">
+                        </form>
+                    </div>
+                    <div class="category">
+                        <h3>Links</h3>
+                        <div class="categories">
+                            <li><a href="#">Wedding Cakes</a></li>
+                            <li><a href="#">Birthday Cakes</a></li>
+                            <li><a href="#">Beddings</a></li>
+                            <li><a href="#">Decorations</a></li>
+                            <li><a href="#">Event planning</a></li>
+                            <li><a href="#">Make Over</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </div>
+                    </div>
+                </div>
+                <div class="socialMedia_workHours">
+                    <div class="socialMedia">
+                        <h3>Follow us on social media</h3>
+                        <div class="socialLinks">
+                            <a target="_blank" href="https://facebook.com/temixempire" title="Temix empire on facebook"><img src="images/facebook_icon.png"></a>
+                            <a target="_blank" href="https://twitter.com/TemixEmpire" title="Temix empire on twitter"><img src="images/twitter_icon.png"></a>
+                            <a target="_blank" href="https://instagram.com/Temix_empire" title="Temix empire on instagram"><img src="images/instagram_icon.png"></a>
+                            <a target="_blank" href="https://linkedin.com/TemixEmpire" title="Temix empire on Linkedin"><img src="images/linkedin_icon.png"></a>
+                        </div>
+                    </div>
+                    <div class="workingHours">
+                        <h3>Working hours</h3>
+                        <div class="hours">
+                            <p>Mondays to Fridays - 7:30am to 5:00pm</p><br>
+                            <p>Saturdays - 9:00am to 2:00pm</p>
+                        </div>
+                    </div>    
+                </div>
+            </section>
+        </section>
+        <section class="secondaryFooter">
+            <p>&copy;2020 Temix Empire. All Rights Reserved. Powered by <a target="_blank" href="https://onostarmedia.com.ng">Onostar Media</a></p>
+        </section>
+    </footer>
+    <div class="help" id="help">
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=2348157985866"><i class="fab fa-whatsapp"></i> Hello, How can we help?</a>
+    </div>
+    <div class="toTop">
+        <a href="#topHeader"><i class="fas fa-arrow-up" style="color:#fff;" size="10"></i></a>
+    </div>
+</body>
+</html>

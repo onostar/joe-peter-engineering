@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Applied macrosystems Resources">
+    <meta name="description" content="Joepeter Engineering is a unique electrical company dedicated to offering professional electrical services. We have a unique approach that builds long-term relationships with our customers, based on our values of oopen and honest communication, collaborative working, professional delivery, complete client satisfaction and a total commitment to quality.">
+    <meta name="keywords" content="Engineering, electrical, engieering and design acoustics, kinematics and multibody dynamics, robotics, control structure, thermal, aerothermal, aeroelasticity">
+    <title>Joepeter Engineering - Quality you can trust</title>
+    <link rel="icon" href="images/joepeter_logo2.jpg" type="image/jpg" size="32X32">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.css">
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css">
+    
+</head>
+<body onload="displayHelp()">
+        <!-- Top header -->
+        <div class="topHeader" id="topHeader">
+            <section class="callLinks">
+                <p><i class="fas fa-envelope"></i> info@joepeterengineering.com</p>
+                <p><i class="fas fa-phone-alt"></i>+2349023140300</p>
+            </section>
+            <section class="socialLinks">
+                <a target="-blank" href="https://facebook.com/joe_peter" title="Follow us on facebook"><i class="fab fa-facebook"></i></a>
+                <a target="_blank" href="https://twitter.com/JoePeterEngineering" title="Follow us on twitter"><i class="fab fa-twitter"></i></a>
+                <a target="_blank" href="https://linkedin.com/joe_peterEngineering" title="Follow us on instagram"><i class="fab fa-linkedin"></i></a>
+            </section>
+        </div>
+        <!-- main header with navigation -->
+        <header id="mainHeader">
+            <div class="logo_title">
+                <a href="index.html">
+                    <img src="images/joepeter_logo2.jpg" alt="joepeter engineering">
+                    <h1>
+                        <div class="title"><span class="joe">Joe</span><span class="peter">peter</span></div>
+                        <div class="tagline">Engineering</div>
+                    </h1>
+                </a>
+            </div>
+            <!-- navigation -->
+            <nav id="navigation">
+                <ul>
+                    <li><a href="about.html" title="who we are">About</a></li>
+                    <li><a href="javascript:void(0);" title="What we do">services<i class="fas fa-sort-down"></i></a>
+                        <ul>
+                            <li><a href="#ourServices" title="Engineering and design acoustics">Engineering & Design Acoustics</a></li>
+                            <li><a href="#ourServices" title="Robotics and control structure interaction">Robotics and Control structure</a></li>
+                            <li><a href="#ourServices" title="Kinematis & Multibody Dynamics">Kinematis & Multibody Dynamics</a></li>
+                            <li><a href="#ourServices" title="Thermal and Aerothermal">Thermal & Aerothermal</a></li>
+                            <li><a href="#ourServices" title="AeroElasticity and Flutter">AeroElasticity & Flutter</a></li>
+                            <li><a href="#ourServices" title="CFD and FSI">CFD & FSI</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:void(0);" title="All our work">Portfolio<i class="fas fa-sort-down"></i></a>
+                        <ul>
+                            <li><a href="#recentWork" title="Our recent work">Our works</a></li>
+                            <li><a href="gallery.html" title="Photos and media">Gallery</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#testimonial" title="Testimonies of clients">Testimonials</a></li>
+                    <li><a href="blog.html" title="Trending topics">Blog</a></li>
+                    <li><a href="contact.html" title="Contact us">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-icon" onclick="displayMenu()"><a href="javascript:void(0);"><i class="fas fa-bars"></i></a></div>
+            
+        </header>
+        <!--banner slides-->
+        <section id="banner">
+            <div class="slides">
+                <div class="slide" id="slide1">
+                    <div class="slideImg">
+                        <img src="images/power-substation-books-guides.jpg" alt="JoePeter Engineering">
+                    </div>
+                    <div class="slider">
+                        <h2>JOEPETER ENGINEERING</h2>
+                        <p>We Deliver High Voltage Electrical Engineering Solutions For Your business.<br>All at low cost</p>
+                        <div class="btn">
+                            <button><a href="about.html">About us</a></button>
+                            <button><a href="contact.html">Request Quote</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide" id="slide2">
+                    <div class="slideImg">
+                        <img src="images/electrician.jpg" alt="relaiable electrical engineering">
+                    </div>
+                    <div class="slider">
+                        <h2>QUALITY AND RELIABLE ELECTRICAL ENGINEERING</h2>
+                        <p>We lead the way in providing quality and reliable electrical engineering services<br>Easy & Free onsite quotations</p>
+                        <div class="btn">
+                            <button><a href="about.html">About us</a></button>
+                            <button><a href="contact.html">Contac us</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide" id="slide3">
+                    <div class="slideImg">
+                        <img src="images/electrical-engineering-3.jpg" alt="joepeter electricians">
+                    </div>
+                    <div class="slider">
+                        <h2>General Engineering solutions</h2>
+                        <p>We offer best solutions to all technical problems in Engineering</p>
+                        <div class="btn">
+                            <button><a href="about.html">Learn more</a></button>
+                            <button><a href="contact.html">Request Quote</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Featured addon services-->
+        <!-- <section class="addons">
+            <div class="addonfeat">
+                <section class="addonsFeatures">
+                    <i class="fas fa-shipping-fast"></i>
+                    <div class="addonsNote">
+                        <h3>Free shipping & Return</h3>
+                        <p>Free Shipping on all orders over N2000</p>
+                    </div>
+                </section>
+                <section class="addonsFeatures">
+                    <i class="far fa-money-bill-alt"></i>
+                    <div class="addonsNote">
+                        <h3>Money back Guarantee</h3>
+                        <p>15 days Money back Guarantee</p>
+                    </div>
+                </section>
+                <section class="addonsFeatures">
+                    <i class="fas fa-headset"></i>
+                    <div class="addonsNote">
+                        <h3>24/7 online support</h3>
+                        <p>We are here to help you</p>
+                    </div>
+                </section>
+            </div>
+        </section> -->
+        <main>
+        <!-- About us -->
+        <section id="whoWeAre">
+            <h2>Get to know us</h2>
+            <hr size="5">
+            <div class="aboutUs">
+                <div class="aboutUsText">
+                    <p>Joepeter Engineering is a unique electrical company dedicated to offering professional electrical services. <br>We have a unique approach that builds long-term relationships with our customers, based on our values of oopen and honest communication, collaborative working, professional delivery, complete client satisfaction and a total commitment to quality.</p>
+                    <button><a href="about.html">Read more</a></button>
+                </div>
+                <img src="images/Electrical_and_Power_Systems.jpg" alt="Joepeter Engineering">
+            </div>
+        </section>
+        <!--Service section-->
+        <section id="ourServices">
+            <h2>Featured Services</h2>
+            <p>Quality of service is our priority. We make sure you get the best for your budget. See some of our services below</p>
+            <hr size="5">
+            <div class="serviceList">
+                <div class="services">
+                    <div class="service" id="cakeService">
+                        <img class="servImg" src="images/engineering_design.jpg" alt="Engineering & acoustics design">
+                    </div>
+                    <div class="notes">
+                        <h3>Engineering & Design-Acoustics</h3>
+                        <p>Joepeter Engineering offers Acoustic analysis which address severe structural vibration and fatigue problems in a coupled fluid-structure system.</p><br>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <div class="services">
+                    <div class="service" id="beddingService">
+                        <img class="servImg" src="images/robotics_engineering.jpg" alt="Robotics and contrl structure">
+                    </div>
+                    <div class="notes">
+                        <h3>ROBOTICS & CONTROL STRUCTURE INTERACTION</h3>
+                        <p>Our robotics & control group's multidisciplinary approach supports industrial customers as well as technology research and development.</p><br>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <div class="services">
+                    <div class="service" id="eventService">
+                        <img class="servImg" src="images/multibody_dynamics.jpg" alt="Event services">
+                    </div>
+                    <div class="notes">
+                        <h3>KINEMATIC & MULTIBODY DYNAMICS</h3>
+                        <p>We offer Kinematic analysis and accurate modeling of multibody interaction that are critical to understanding mechanism performance.</p><br>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <div class="services">
+                    <div class="service">
+                        <img class="servImg" src="images/thermal_analysis.jpg" alt="Thermal analysis of aerospace and elctronics">
+                    </div>
+                    <div class="notes">
+                        <h3>THERMAL & AEROTHERMAL</h3>
+                        <p>Call on our experience in thermal analysis of aerospace and electronic systems and applying thermal loads to structural analysis models.</p><br>
+                        <a href="#">Learn more</a>
+                    </div> 
+                </div>
+                <div class="services">
+                    <div class="service">
+                        <img class="servImg" src="images/aeroelasticity.jpg" alt="Aeroelasticity and flutter">
+                    </div>
+                    <div class="notes">
+                        <h3>AEROELASTICITY & FLUTTER</h3>
+                        <p>Our turnkey certification service connects you with a designated engineering representative (DER) for a more efficient FAA certification process.</p><br>
+                        <a href="#">Learn more</a>
+                    </div> 
+                </div>
+                <div class="services">
+                    <div class="service">
+                        <img class="servImg" src="images/cfd_fsi.png" alt="CFD and FSI analysis">
+                    </div>
+                    <div class="notes">
+                        <h3>CFD & FSI</h3>
+                        <p>As part of our engineering analysis services, Joepeter  Engineering also conducta CFD and FSI analyses for aerospace and industrial customers.</p><br>
+                        <a href="#">Learn more</a>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <!-- ehy choose us -->
+        <section id="whyChoose">
+            <h2>Why choose us</h2>
+            <hr>
+            <div class="whyChoose">
+                <div class="why_image">
+                    <img src="images/engineering.jpg" alt="joepeter why us">
+                </div>
+                <div class="reasons">
+                    <div class="reasons_img">
+                        <img src="images/electricians_working.jpg" alt="working men">
+                    </div>
+                    <div class="why_text">
+                        <div class="why">
+                            <img src="images/electrical_installation.jpg" alt="item">
+                            <div class="why_info">
+                                <h3>Electrical Installations</h3>
+                                <p>Our highly skilled and experienced electrical contractors offer complete electrical engineering solutions across Africa and beyond</p>
+                            </div>
+                        </div>
+                        <div class="why">
+                            <img src="images/control_panel.jpg" alt="item">
+                            <div class="why_info">
+                                <h3>Control Panels & Switchgears</h3>
+                                <p>We manufacture bespoke Electrical and Pneumatic Control panels in our own workshops</p>
+                            </div>
+                        </div>
+                        <div class="why">
+                            <img src="images/systems_design.jpeg" alt="item">
+                            <div class="why_info">
+                                <h3>Systems Design</h3>
+                                <p>Getting the design of the system right is crucial in delivering a product that fulfils both market and functional requirements. With our experience of both hardware and software we can make sure the right choices are made on the functional split of the system, alongside the correct choice of components and modules, and the interface between them. When combined this enables us to realise a solution that meets or exceeds the needs of both engineering and marketing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Recent jobs -->
+        <section id="recentWork">
+            <h2>Our recent work</h2>
+            <hr size="5">
+            <p>Check out our portfolio</p>
+            <div class="categories">
+                <button id="all">All</button>
+                <button id="engineering">Engineering</button>
+                <button id="petrol">Petrolchemical</button>
+                <button id="power">Power</button>
+            </div>
+            <div class="recentjobs">
+                <figure class="engine">
+                    <img src="images/Piping-Layout-Stress-Analysis-for-Ammonia.jpg" alt="recent job">
+                    <figcaption>
+                        <h3>Piping Layout & Stress Analysis for Ammonia Urea Complex</h3>
+                        <p>Client An Indian based organization with focus on rural agricultural & vinyl chloride business, having manufacturing facilities of fertilizer, chloro-vinyl, chloro-alkali & cement along with agriculture produce processing facilities like Sugar factories.</p>
+                    </figcaption>
+                </figure>
+                <figure class="petrochemical">
+                    <img src="images/Development-of-Piping-Spool-Drawings.jpg" alt="recent job">
+                    <figcaption>
+                        <h3>Development of Piping Spool Drawings</h3>
+                        <p>Client A Canadian based leader in the design and manufacturing of composite equipment. They are a leader in providing engineered composite solutions to corrosion challenges in industrial processing facilities. Their services include component design, stress analysis, manufacturing, fabrication, and testing through installation, site inspection, and maintenance.</p>
+                    </figcaption>
+                </figure>
+                <figure class="engine">
+                    <img src="images/Eductor-Pipe-Size-Selection-For-Purging-Application.jpg" alt="recent job">
+                    <figcaption>
+                        <h3>Eductor Pipe Size Selection For Purging Application</h3>
+                        <p>Client A leader in direct-fired, process heater applications since 1972, having the experience and expertise to handle any size project.They are committed to provide quality heat transfer equipment at a competitive price with optimized designs to save fuel, to meet or exceed customer specifications, and to accommodate individual project requirements.</p>
+                    </figcaption>
+                </figure>
+                <figure class="power">
+                    <img src="images/Instrument-Location-Layout-For-Amines-Unit.png" alt="recent job">
+                    <figcaption>
+                        <h3>Electrical Engineering Drawing and Instrument Location Plan for Amines Units</h3>
+                        <p>Client A renowned Multi-discipline EPC company based in the US region who has project execution experience and expertise across myriad industries ranging from Chemical, Petrochemical, Power, Gas, Manufacturing, and more.</p>
+                    </figcaption>
+                </figure>
+                <figure class="power">
+                    <img src="images/Piping-Stress-Analysis-of-Vacuum-Jacketed-Liquid-Nitrogen-lines.png" alt="work done">
+                    <figcaption>
+                        <h3>Stress Analysis Of Vacuum Jacketed Liquid Nitrogen Pipes Using CAESAR II</h3>
+                        <p>A leading North American manufacturer of cryogenic gas equipment and systems engaged in providing engineering, design, fabrication, installation, and repair services for the food packaging, pharmaceutical, semi-conductor, medical gas pipe, and more.</p>
+                    </figcaption>
+                </figure>
+                <figure class="power">
+                    <img src="images/Pipework-and-Fabrication-drawing-for-the-Wastewater-Treatment-Plant.png" alt="work done">
+                    <figcaption>
+                        <h3>Pipework Drawing And Pipe Spool Drawing For Wastewater Treatment Plant</h3>
+                        <p>Client A UK-based EPC company operational across different industry verticals that were assisting spool and structure fabrication for oil & gas, water & wastewater, and manufacturing sectors.</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <button><a href="gallery.html">View more</a></button>
+        </section>
+
+        <!-- call to action -->
+        <section id="callToAction">
+            <div class="callToActionImg">
+                <img src="images/Electrical-Engineering.jpg">
+            </div>
+            <div class="takeAction">
+                <h3>Reliable and Efficient</h3>
+                <p>Are you looking for a reliable source of power?.<br>We have you covered. We have the best engineeers in the country dedicated to offering you quality of service.<br>We guarantee you quality<br><br>Book an appointment with us today</p>
+                <a href="contact.html"><button>Request a quote</button></a>
+            </div>
+        </section>
+
+        <!-- Client testimonies -->
+        <section id="testimonial">
+            <h2>Testimonies from our clients</h2>
+            <hr size="5">
+            <div class="testimonialSlide">
+                <div class="testimoniesSlide">
+                    <div class="testimonies">
+                        <p><q>Joepeter Engineering are professional in are professionals in electrical and mechanical works.</q></p>
+                        <p class="testifiers">Josh Elemand<br><span>Warri, Nigeria</span></p>
+                    </div>
+                    <div class="testimonies">
+                        <p><q>Joepeter Engineering are professional in are professionals in electrical and mechanical works.</q></p>
+                        <p class="testifiers">Josh Elemand</p>
+                    </div>
+                    <div class="testimonies">
+                        <p><q>Joepeter Engineering are professional in are professionals in electrical and mechanical works.</q></p>
+                        <p class="testifiers">Josh Elemand</p>
+                    </div>
+                    <div class="testimonies">
+                        <p><q>Joepeter Engineering are professional in are professionals in electrical and mechanical works.</q></p>
+                        <p class="testifiers">Josh Elemand</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Daily deals -->
+        <section id="dailyDeal">
+            <h2>Our partners</h2>
+            <hr size="5">
+            <div class="deal_of_today">
+                <figure>
+                    <img src="images/shell.jpg" alt="shell petroleum">
+                </figure>
+                <figure>
+                    <img src="images/skanska.png" alt="shell petroleum">
+                </figure>
+                <figure>
+                    <img src="images/Equinix-logo.png" alt="shell petroleum">
+                </figure>
+                <figure>
+                    <img src="images/glaxosmithkline-logo.jpg" alt="shell petroleum">
+                </figure>
+            </div>
+        </section>
+        <!-- blog posts -->
+        <section id="trends">
+            <h2>News and Updates</h2>
+            <hr size="5">
+            <div class="trendPosts">
+                <article><a href="javascript:void(0);">
+                    <figure>
+                        <img src="images/transformer.jpg" alt="Building a transformer">
+                        <figcaption>
+                            <span style="background:var(--secondaryColor);">Electrical</span>
+                            <h3>How to Build transformers</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam tempore explicabo velit culpa voluptas. Temporibus earum ut doloremque quasi a!</p></figcaption>
+                    </figure></a>
+                </article>
+                <article><a href="javascript:void(0);">
+                    <figure>
+                        <img src="images/Electrical_and_Power_Systems.jpg" alt="power systems">
+                        <figcaption>
+                            <span style="background:green;">Power</span>
+                            <h3>Benefits of Power</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores at rem, ea nihil autem nostrum eveniet explicabo nulla similique laborum!</p></figcaption>
+                    </figure></a>
+                </article>
+                <article><a href="javascript:void(0);">
+                    <figure>
+                        <img src="images/engineering.jpg" alt="Engineering">
+                        <figcaption>
+                            <span style="background:red;">Petrochemical</span>
+                            <h3>Engineering process</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam tempore explicabo velit culpa voluptas. Temporibus earum ut doloremque quasi a!</p></figcaption>
+                    </figure></a>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="mainFooter">
+            <section class="mainFooter1">
+                <div class="contactAddress">
+                    <h3>For more info and to book an appointment</h3>
+                    <div class="address">
+                        <i class="fas fa-home"></i>
+                        <div class="addtext">
+                            <h4>Head office:</h4>
+                            <p>Suite 206 KU Plaza, Off Sapele road <br> Benin city, Edo state</p>
+                        </div>
+                    </div>
+                    <div class="address phone">
+                        <i class="fas fa-phone-volume"></i>
+                        <div class="addtext">
+                            <h4>Call us:</h4>
+                            <p>09023140300<br>08157985866</p>
+                        </div>
+                    </div>
+                    <div class="address email">
+                        <i class="fas fa-envelope-open-text"></i>
+                        <div class="addtext">
+                            <h4>Email:</h4>
+                            <p>info@joepeterengineering.com <br>sales@joepeterengineering</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="subscribe_category">
+                    <div class="subscribe">
+                        <h3>Please subscribe to our newsletter</h3>
+                        <form id="subscribe" method="post" action="subscribe.php">
+                            <input type="email" id="email" name="email" placeholder="enter your email">
+                            <input type="submit" id="submit" value="Subscribe">
+                        </form>
+                    </div>
+                    <div class="category">
+                        <h3>Links</h3>
+                        <div class="categories">
+                            <li><a href="#">Engineering & Design</a></li>
+                            <li><a href="#">Robotics</a></li>
+                            <li><a href="#">Thermal & Aerothermal</a></li>
+                            <li><a href="#">Aeroelasticity</a></li>
+                            <li><a href="#">kinematics & Multibody Dynamics</a></li>
+                            <li><a href="#">CFD & FSI</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </div>
+                    </div>
+                </div>
+                <div class="socialMedia_workHours">
+                    <div class="socialMedia">
+                        <h3>Follow us on social media</h3>
+                        <div class="socialLinks">
+                            <a target="_blank" href="https://facebook.com/joepeterengineering" title="Temix empire on facebook"><img src="images/facebook_icon.png"></a>
+                            <a target="_blank" href="https://twitter.com/joePeterEngineering" title="Temix empire on twitter"><img src="images/twitter_icon.png"></a>
+                            <!-- <a target="_blank" href="https://instagram.com/Temix_empire" title="Temix empire on instagram"><img src="images/instagram_icon.png"></a> -->
+                            <a target="_blank" href="https://linkedin.com/joePeterEngineering" title="Temix empire on Linkedin"><img src="images/linkedin_icon.png"></a>
+                        </div>
+                    </div>
+                    <div class="workingHours">
+                        <h3>Working hours</h3>
+                        <div class="hours">
+                            <p>Mondays to Fridays: 7:30am - 5:00pm</p><br>
+                            <p>Saturdays: 9:00am - 2:00pm</p>
+                        </div>
+                    </div>    
+                </div>
+            </section>
+        </section>
+        <section class="secondaryFooter">
+            <p>&copy;2020 Joepeter Engineering. All Rights Reserved. Powered by <a target="_blank" href="https://appliedmacros.com">Applied Macrosystems</a></p>
+        </section>
+    </footer>
+    <div class="help" id="help">
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=2348157985866"><i class="fab fa-whatsapp"></i> Hello, How can we help?</a>
+    </div>
+    <div class="toTop">
+        <a href="#topHeader"><i class="fas fa-chevron-up" style="color:#fff;" size="10"></i></a>
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
